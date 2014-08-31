@@ -20,7 +20,7 @@
 		                <span class="icon-bar"></span>
 		                <span class="icon-bar"></span>
 		            </button>
-		            <a href="index.html" class="navbar-brand">BMSIT Parents' Portal</a>
+		            <a href="index.htm" class="navbar-brand">BMSIT Parents' Portal</a>
 		        </div>
 
 		        <div id="navbarCollapse" class="collapse navbar-collapse">
@@ -43,49 +43,51 @@
 				<!-- Parent Login Form -->
 				<div class="container">
 					<div class="col-md-offset-1">
-						<h1>Proctor Login</h1><br>
+						<h1>Student Profile</h1><br>
 					</div>
 				</div>
 
 				<form class="form-horizontal" role="form">
-				
+
+					<div class="form-group">
+					    <label for="student_name" class="col-sm-4 control-label">Name</label>
+					    <div class="col-sm-7">
+					        <input type="text" class="form-control" id="student_name" placeholder="">
+					    </div>
+					</div>
+
+					<div class="form-group">
+					    <label for="branch" class="col-sm-4 control-label">Branch</label>
+					    <div class="col-sm-7">
+					        <input type="text" class="form-control" id="branch" placeholder="">
+					    </div>
+					</div>
+					
+					<div class="form-group">
+						<label for="usn" class="col-sm-4 control-label">USN</label>
+						<div class="col-sm-7">
+						    <input type="text" class="form-control" id="usn" placeholder="">
+						</div>
+					</div>
+
 				    <div class="form-group">
-				        <label for="input_entry" class="col-sm-4 control-label">Email</label>
+				        <label for="sem" class="col-sm-4 control-label">Semester</label>
 				        <div class="col-sm-7">
-				            <input type="email" class="form-control" id="input_entry" placeholder="">
+				            <input type="number" class="form-control" id="sem" placeholder="">
 				        </div>
 				    </div>
 
-					<div class="form-group">
-					   	<label for="input_password" class="col-sm-4 control-label">Password</label>
-					    <div class="col-sm-7">
-					      	<input type="password" class="form-control" id="input_password" placeholder="">
-					    </div>
-				 	</div>
+				    
 
-				    <div class="form-group">
-					    <div class="col-sm-offset-4 col-sm-7">
-					        <div class="checkbox">
-					            <label>
-					           		<input type="checkbox"> Remember me
-					        	</label>
-					        </div>
-					    </div>
-				    </div>
+					
+
+				    
 
 				    <div class="form-group">
 				    	<div class="col-sm-offset-4 col-sm-7">
-				      		<button type="submit" class="btn btn-default">Sign in</button>
+				      		<button type="submit" class="btn btn-default">Confirm</button>
 				    	</div>
 				    </div>
-
-				 	<div class="form-group">
-						<div class="col-md-offset-8">
-							<a href="#">Reset Password</a>
-							<br>
-							<a href="index.htm"> Parent Sign In </a>
-						</div>
-					</div>
 
 				</form>
 				<!-- End of parent login form -->
